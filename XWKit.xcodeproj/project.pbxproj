@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741643411EB731AA0008A941 /* XWMusicalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 741643401EB731AA0008A941 /* XWMusicalButton.m */; };
+		741643441EB75BE00008A941 /* XWStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 741643431EB75BE00008A941 /* XWStick.m */; };
+		741643471EB76BDC0008A941 /* MusicPlayButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741643461EB76BDC0008A941 /* MusicPlayButtonViewController.m */; };
+		749A6D591EA35E8C00765037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A6D581EA35E8C00765037 /* main.m */; };
+		749A6D5C1EA35E8C00765037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A6D5B1EA35E8C00765037 /* AppDelegate.m */; };
+		749A6D621EA35E8C00765037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749A6D601EA35E8C00765037 /* Main.storyboard */; };
+		749A6D641EA35E8C00765037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749A6D631EA35E8C00765037 /* Assets.xcassets */; };
+		749A6D671EA35E8C00765037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749A6D651EA35E8C00765037 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7416433F1EB731A90008A941 /* XWMusicalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWMusicalButton.h; sourceTree = "<group>"; };
+		741643401EB731AA0008A941 /* XWMusicalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMusicalButton.m; sourceTree = "<group>"; };
+		741643421EB75BE00008A941 /* XWStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWStick.h; sourceTree = "<group>"; };
+		741643431EB75BE00008A941 /* XWStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWStick.m; sourceTree = "<group>"; };
+		741643451EB76BDC0008A941 /* MusicPlayButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayButtonViewController.h; sourceTree = "<group>"; };
+		741643461EB76BDC0008A941 /* MusicPlayButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayButtonViewController.m; sourceTree = "<group>"; };
+		749A6D541EA35E8C00765037 /* XWKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		749A6D581EA35E8C00765037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		749A6D5A1EA35E8C00765037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		749A6D5B1EA35E8C00765037 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		749A6D611EA35E8C00765037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		749A6D631EA35E8C00765037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		749A6D661EA35E8C00765037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		749A6D681EA35E8C00765037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		749A6D511EA35E8B00765037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		749A6D4B1EA35E8B00765037 = {
+			isa = PBXGroup;
+			children = (
+				749A6D561EA35E8C00765037 /* XWKit */,
+				749A6D551EA35E8C00765037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		749A6D551EA35E8C00765037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749A6D541EA35E8C00765037 /* XWKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		749A6D561EA35E8C00765037 /* XWKit */ = {
+			isa = PBXGroup;
+			children = (
+				749A6D5A1EA35E8C00765037 /* AppDelegate.h */,
+				749A6D5B1EA35E8C00765037 /* AppDelegate.m */,
+				749A6D601EA35E8C00765037 /* Main.storyboard */,
+				741643451EB76BDC0008A941 /* MusicPlayButtonViewController.h */,
+				741643461EB76BDC0008A941 /* MusicPlayButtonViewController.m */,
+				749A6D6E1EA35F9800765037 /* MusicPlayEffectButton */,
+				749A6D631EA35E8C00765037 /* Assets.xcassets */,
+				749A6D571EA35E8C00765037 /* Supporting Files */,
+			);
+			path = XWKit;
+			sourceTree = "<group>";
+		};
+		749A6D571EA35E8C00765037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				749A6D651EA35E8C00765037 /* LaunchScreen.storyboard */,
+				749A6D681EA35E8C00765037 /* Info.plist */,
+				749A6D581EA35E8C00765037 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		749A6D6E1EA35F9800765037 /* MusicPlayEffectButton */ = {
+			isa = PBXGroup;
+			children = (
+				7416433F1EB731A90008A941 /* XWMusicalButton.h */,
+				741643401EB731AA0008A941 /* XWMusicalButton.m */,
+				741643421EB75BE00008A941 /* XWStick.h */,
+				741643431EB75BE00008A941 /* XWStick.m */,
+			);
+			path = MusicPlayEffectButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		749A6D531EA35E8B00765037 /* XWKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749A6D6B1EA35E8C00765037 /* Build configuration list for PBXNativeTarget "XWKit" */;
+			buildPhases = (
+				749A6D501EA35E8B00765037 /* Sources */,
+				749A6D511EA35E8B00765037 /* Frameworks */,
+				749A6D521EA35E8B00765037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWKit;
+			productName = XWKit;
+			productReference = 749A6D541EA35E8C00765037 /* XWKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		749A6D4C1EA35E8B00765037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaowei;
+				TargetAttributes = {
+					749A6D531EA35E8B00765037 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CJ59HH5Y6Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 749A6D4F1EA35E8B00765037 /* Build configuration list for PBXProject "XWKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 749A6D4B1EA35E8B00765037;
+			productRefGroup = 749A6D551EA35E8C00765037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749A6D531EA35E8B00765037 /* XWKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		749A6D521EA35E8B00765037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749A6D671EA35E8C00765037 /* LaunchScreen.storyboard in Resources */,
+				749A6D641EA35E8C00765037 /* Assets.xcassets in Resources */,
+				749A6D621EA35E8C00765037 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		749A6D501EA35E8B00765037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741643411EB731AA0008A941 /* XWMusicalButton.m in Sources */,
+				741643441EB75BE00008A941 /* XWStick.m in Sources */,
+				749A6D5C1EA35E8C00765037 /* AppDelegate.m in Sources */,
+				749A6D591EA35E8C00765037 /* main.m in Sources */,
+				741643471EB76BDC0008A941 /* MusicPlayButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		749A6D601EA35E8C00765037 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749A6D611EA35E8C00765037 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		749A6D651EA35E8C00765037 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749A6D661EA35E8C00765037 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		749A6D691EA35E8C00765037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		749A6D6A1EA35E8C00765037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		749A6D6C1EA35E8C00765037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ59HH5Y6Z;
+				INFOPLIST_FILE = XWKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaowei.XWKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		749A6D6D1EA35E8C00765037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ59HH5Y6Z;
+				INFOPLIST_FILE = XWKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaowei.XWKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		749A6D4F1EA35E8B00765037 /* Build configuration list for PBXProject "XWKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749A6D691EA35E8C00765037 /* Debug */,
+				749A6D6A1EA35E8C00765037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749A6D6B1EA35E8C00765037 /* Build configuration list for PBXNativeTarget "XWKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749A6D6C1EA35E8C00765037 /* Debug */,
+				749A6D6D1EA35E8C00765037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 749A6D4C1EA35E8B00765037 /* Project object */;
+}
